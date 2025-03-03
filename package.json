@@ -1,0 +1,49 @@
+{
+  "name": "keystone-seeder",
+  "version": "1.0.0",
+  "description": "A flexible data seeder for Keystone 6 projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcomaldonadoramirez/keystone-seeder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcomaldonadoramirez/keystone-seeder/issues"
+  },
+  "homepage": "https://github.com/marcomaldonadoramirez/keystone-seeder#readme",
+  "bin": {
+    "keystone-seeder": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "keystone",
+    "keystone6",
+    "seeder",
+    "faker",
+    "testing"
+  ],
+  "author": "Marco Maldonado",
+  "license": "MIT",
+  "peerDependencies": {
+    "@keystone-6/core": "^6.0.0",
+    "@prisma/client": "^5.22.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.4.0",
+    "@inquirer/prompts": "^7.3.2",
+    "@prisma/internals": "^5.22.0",
+    "commander": "^13.1.0",
+    "tsx": "^4.19.2"
+  },
+  "devDependencies": {
+    "@keystone-6/core": "^6.0.0",
+    "@prisma/client": "^5.22.0",
+    "@prisma/internals": "^5.22.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.5.0"
+  }
+}

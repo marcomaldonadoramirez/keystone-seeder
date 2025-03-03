@@ -1,0 +1,20 @@
+node_modules
+dist/
+*.log
+
+.env*
+!env.example
+
+# npm package files
+*.tgz
+.npm
+.npmrc
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo

@@ -1,0 +1,17 @@
+# Source code
+src/
+tests/
+__tests__/
+
+# Config files
+.github/
+.gitignore
+.eslintrc
+.prettierrc
+tsconfig.json
+jest.config.js
+
+# Development files
+*.test.js
+*.spec.js
+coverage/
